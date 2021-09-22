@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Unify | Unite With People</title>
+    <link rel="icon" href="{{url_for('static',filename='bomb.png')}}" type="image/gif">
+    <!-- fontawesome for icons -->
+    <script src="https://kit.fontawesome.com/72212fbbc6.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+    <!-- script for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+<div class="row">
+  <div class="col-lg-6">
+    <h3 class="title">Unify</h3>
+  <img class="imga" src="https://media.giphy.com/media/ewazUGlcpXewUKB6VQ/source.gif" alt="">
+ </div>
+  <div class="col-lg-6 col-md-13">
+    <div class="maine">
+      <button
+         class="light-mode-button"
+         aria-label="Toggle Light Mode"
+         onclick="toggle_light_mode()">
+         <span></span>
+         <span></span>
+     </button>
+      <script>
+      function toggle_light_mode() {
+      var app = document.getElementsByTagName("BODY")[0];
+      if (localStorage.lightMode == "dark") {
+    localStorage.lightMode = "light";
+    app.setAttribute("light-mode", "light");
+      } else {
+    localStorage.lightMode = "dark";
+    app.setAttribute("light-mode", "dark");
+      }
+    }
+    </script>
+    <h1 class="hh">CHAT WITH PEOPLE</h1>
+    <h1  class="hg"> WORLDWIDE</h1>
+    <p class="pp">Interact with millions of people,know their thoughts, <br> and what not .... !<br>Join Unify and get diversify </p>
+    <a href="{{url_for('cr')}}"><button class="btn" type="button" name="button">chat now <i class="fas fa-bomb"></i></button></a>
+    </div>
+    </div>
+
+
+
+</div>
+  </body>
+</html>

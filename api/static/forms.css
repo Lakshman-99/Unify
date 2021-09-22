@@ -1,0 +1,130 @@
+.bdy{
+background:#a8ff3e;
+background:#a8ff3e;
+overflow-x: hidden;
+}
+
+
+.ll{
+  position: relative;
+  left: 90px;
+    top: -73px;
+    color: #a8ff3e;
+}
+
+.jj{
+
+  position: relative;
+    top: -47px;
+}
+
+.but {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+border:3px solid #a8ff3e;
+cursor: pointer;
+  font-family: 'Bungee Inline', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+}
+
+.but:hover {
+  background:black;
+  color: #a8ff3e;
+  text-decoration: none;
+}
+
+.gg{
+
+  position:relative;
+  top: 41px;
+    left: 80px;
+  font-family: 'Sacramento', cursive;
+  font-weight: 850;
+font-size: xxx-large;
+}
+.gng{
+  position: relative;
+      top: -146px;
+      left: 589px;
+      font-family: 'Bungee Inline', cursive;
+      color: black;
+
+
+}
+.gng:hover{
+  color: white;
+}
+a{
+  text-decoration: none;
+}
+
+.ben{
+  position: absolute;
+    top: 57px;
+right: 55px;
+cursor: pointer;
+}
+
+.light-mode-button {
+           background:0;
+           border: 0;
+           box-sizing: border-box;
+           cursor: pointer;
+           height: 40px;
+           width: 100px;
+
+           border: 1px solid rgba(255,255,255,0);
+       }
+
+       .light-mode-button:focus {
+           outline:none; /* Not ideal for accessibility */
+       }
+
+       .light-mode-button span:nth-child(1) {
+           position: absolute;
+           top: 4px;
+         left: 35px;
+         width: 49px;
+           height: 24px;
+           border-radius: 20px;
+           background-color:black;
+           box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+           transition: .3s;
+       }
+
+       .light-mode-button span:nth-child(2) {
+           position: absolute;
+           top: 9px;
+           left: 40px;
+           width: 13px;
+           height: 13px;
+           background-color:#a8ff3e;
+           border-radius: 50%;
+           box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+           transition: .3s;
+       }
+body {
+   background-color:#a8ff3e ;
+   transition: background-color .3s;
+}
+
+body[light-mode=dark] {
+   background-color: #141516;
+   color: #a8ff3e;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1){
+   background-color:  #a8ff3e;
+   color: #a8ff3e;
+}
+
+body[light-mode=dark] .light-mode-button span:nth-child(2) {
+   left: 65px;
+   background-color: #141516;
+}

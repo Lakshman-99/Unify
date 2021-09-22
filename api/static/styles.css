@@ -1,0 +1,146 @@
+body {
+  background: #a8ff3e;
+  overflow-x: hidden;
+}
+
+.hh {
+  font-family: 'Oswald', sans-serif;
+  font-size: 76px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  right: 115px;
+  display: inline;
+}
+
+.hg {
+  font-family: 'Oswald', sans-serif;
+  font-size: 76px;
+  font-weight: 900;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  right: 9px;
+  display: inline;
+}
+.title {
+  font-family: 'Sacramento', cursive;
+  font-weight: 850;
+  font-size: xxx-large;
+  position: absolute;
+left: 83px;
+top: 105px;
+}
+
+.btn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  border: 3px solid #a8ff3e;
+  cursor: pointer;
+  font-family: 'Bungee Inline', cursive;
+  color: #ffffff;
+  font-size: 22px;
+  background: #000000;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  position: relative;
+    top: 11px;
+
+}
+
+.btn:hover {
+  background: black;
+  color: #a8ff3e;
+  text-decoration: none;
+}
+
+.pp {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  padding-top: 170px;
+}
+
+.maine {
+  position: relative;
+  left: 114px;
+  top: 157px;
+}
+
+.imga {
+  position: relative;
+  left: 297px;
+  top: 167px;
+  width: 296px;
+}
+
+.rr {
+position: relative;
+top: 78px;
+    right: 147px;
+font-family: 'Titillium Web', sans-serif;
+font-size: larger;
+}
+
+.light-mode-button {
+  background: 0;
+  border: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  bottom: 103px;
+  left: 462px;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.light-mode-button:focus {
+  outline: none;
+  /* Not ideal for accessibility */
+}
+
+.light-mode-button span:nth-child(1) {
+  position: absolute;
+  top: 4px;
+  left: 35px;
+  width: 49px;
+  height: 24px;
+  border-radius: 20px;
+  background-color: black;
+  box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+  transition: .3s;
+}
+
+.light-mode-button span:nth-child(2) {
+  position: absolute;
+  top: 9px;
+  left: 40px;
+  width: 13px;
+  height: 13px;
+  background-color: #a8ff3e;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+  transition: .3s;
+}
+
+body {
+  background-color: #a8ff3e;
+  transition: background-color .3s;
+}
+
+body[light-mode=dark] {
+  background-color: #141516;
+  color: #a8ff3e;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1) {
+  background-color: #a8ff3e;
+  color: #a8ff3e;
+}
+
+body[light-mode=dark] .light-mode-button span:nth-child(2) {
+  left: 65px;
+  background-color: #141516;
+}

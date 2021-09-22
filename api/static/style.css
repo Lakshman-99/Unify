@@ -1,0 +1,211 @@
+.bdy{
+background:#a8ff3e;
+overflow-x: hidden;
+
+}
+
+
+h1{
+font-family: 'Oswald', sans-serif;
+font-size: 81px;
+font-weight: 900;
+text-align: center;
+position: relative;
+right: 456px;
+top:73px;
+}
+
+.gg{
+  font-family: 'Sacramento', cursive;
+  text-decoration: none;
+  font-weight: 850;
+font-size: xxx-large;
+
+}
+h3{
+  text-decoration: none;
+}
+.nand{
+  position: relative;
+    top: 111px;
+}
+
+p{
+  font-family: 'Titillium Web', sans-serif;
+font-size: 25px;
+padding-top: 42px;
+}
+.maine{
+  position: relative;
+      left: 90px;
+      top: 77px;
+}
+
+.gk{
+  left: 690px;
+    position: relative;
+    bottom: 478px;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.ben{
+  position: absolute;
+    top: 57px;
+right: 55px;
+cursor: pointer;
+}
+
+.light-mode-button {
+           background:0;
+           border: 0;
+           box-sizing: border-box;
+           cursor: pointer;
+           height: 40px;
+           width: 100px;
+           position: relative;
+           border: 1px solid rgba(255,255,255,0);
+       }
+
+       .light-mode-button:focus {
+           outline:none; /* Not ideal for accessibility */
+       }
+
+       .light-mode-button span:nth-child(1) {
+           position: absolute;
+           top: 4px;
+         left: 35px;
+         width: 49px;
+           height: 24px;
+           border-radius: 20px;
+           background-color:black;
+           box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+           transition: .3s;
+       }
+
+       .light-mode-button span:nth-child(2) {
+           position: absolute;
+           top: 9px;
+           left: 40px;
+           width: 13px;
+           height: 13px;
+           background-color:#a8ff3e;
+           border-radius: 50%;
+           box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+           transition: .3s;
+       }
+body {
+   background-color:#a8ff3e ;
+   transition: background-color .3s;
+}
+
+body[light-mode=dark] {
+   background-color: #141516;
+   color: #a8ff3e;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1){
+   background-color:  #a8ff3e;
+   color: #a8ff3e;
+}
+
+body[light-mode=dark] .light-mode-button span:nth-child(2) {
+   left: 65px;
+   background-color: #141516;
+}
+
+.lux{
+  border-radius: 27px;
+}
+
+.containe{
+display: inline-block;
+  position: absolute;
+    top: 52px;
+    right: 105px;
+}
+
+.price-text{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+.row{
+  position: relative;
+top: 164px;
+width: 970px;
+left: 279px;
+}
+.but {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+border:3px solid #a8ff3e;
+cursor: pointer;
+  font-family: 'Bungee Inline', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 265px;
+  position: relative;
+    left: 270px;
+
+}
+a{
+  text-decoration: none;
+}
+
+.but:hover {
+  background:black;
+  color: #a8ff3e;
+  text-decoration: none;
+}
+.skill-row{
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.img1 {
+    width: 30%;
+    float: left;
+    margin-right: 50px;
+  }
+  .img2 {
+    width: 30%;
+    float: right;
+    margin-left: 50px;
+    margin-top: 0;
+    position: relative;
+
+  }
+
+
+.bute {
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+  border:3px solid #a8ff3e;
+  cursor: pointer;
+    font-family: 'Bungee Inline', cursive;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 265px;
+    position: relative;
+    right: 5px;
+  }
+  .ahr{
+    text-decoration: none;
+    color: black;
+  }
+  .ahr:hover{
+    color: black;
+  }

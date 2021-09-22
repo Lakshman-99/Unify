@@ -1,0 +1,143 @@
+html, body {
+ height: 100%;
+ overflow-x: hidden;
+ overflow-y: hidden;
+
+}
+
+
+.App {
+ margin: 10px;
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ display: flex;
+ flex-direction: column;
+}
+
+#login {
+
+ margin-bottom: 10px;
+ text-align:center;
+
+}
+
+#chat {
+ width: 100%;
+ display: flex;
+ flex-direction: row;
+ align-items: stretch;
+ flex: 1;
+ overflow: auto;
+
+}
+.las{
+  font-family: 'Sacramento', cursive;
+      text-decoration: none;
+      font-weight: 850;
+      font-size: xxx-large;
+      padding: 60px;
+}
+.cass{
+  background: #a8ff3e;
+}
+
+.ben{
+  position: fixed;
+    left: 1405px;
+}
+.light-mode-button {
+           background:0;
+           border: 0;
+           box-sizing: border-box;
+           cursor: pointer;
+           height: 40px;
+           width: 100px;
+           
+           border: 1px solid rgba(255,255,255,0);
+       }
+
+       .light-mode-button:focus {
+           outline:none; /* Not ideal for accessibility */
+       }
+
+       .light-mode-button span:nth-child(1) {
+           position: absolute;
+           top: 4px;
+         left: 35px;
+         width: 49px;
+           height: 24px;
+           border-radius: 20px;
+           background-color:black;
+           box-shadow: inset 1px 1px 3px 0 rgb(0 0 0 / 40%);
+           transition: .3s;
+       }
+
+       .light-mode-button span:nth-child(2) {
+           position: absolute;
+           top: 9px;
+           left: 40px;
+           width: 13px;
+           height: 13px;
+           background-color:#a8ff3e;
+           border-radius: 50%;
+           box-shadow: 1px 1px 2px 0 rgb(0 0 0 / 40%);
+           transition: .3s;
+       }
+body {
+   background-color:#a8ff3e ;
+   transition: background-color .3s;
+}
+
+body[light-mode=dark] {
+   background-color: #141516;
+   color: #a8ff3e;
+}
+
+body[light-mode="dark"] .light-mode-button span:nth-child(1){
+   background-color:  #a8ff3e;
+   color: #a8ff3e;
+}
+
+body[light-mode=dark] .light-mode-button span:nth-child(2) {
+   left: 65px;
+   background-color: #141516;
+}
+.but {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+border:3px solid #a8ff3e;
+cursor: pointer;
+  font-family: 'Bungee Inline', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  left: 113px;
+    top: 14px;
+}
+
+.but:hover {
+  background:black;
+  color: #a8ff3e;
+  text-decoration: none;
+}
+
+.mll{
+  border-radius: 6px
+}
+.piccc{
+  position: relative;
+top: 139px;
+right: 470px;
+}
+.picc{
+  position: relative;
+
+top: -2px;
+width: 671px;
+}
